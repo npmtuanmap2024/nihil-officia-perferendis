@@ -1,0 +1,16 @@
+@import "vars";
+@import "struct";
+
+.myvars {
+    content: quote($import_counter);
+}
+
+.class-a {
+  $class_name: 'class-a';
+  content: quote($class_name);
+}
+
+.class-b {
+  $class_name: "class-b";
+  content: quote($class_name);
+}
